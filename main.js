@@ -1,27 +1,27 @@
-const menu = document.querySelector('.menu')
-const navigation = document.querySelector('.navigation')
-const dropdown = document.querySelectorAll('#dropdown')
-const drop = document.querySelectorAll('.drop')
-const dropitemMenu = document.querySelectorAll('.navigation .action')
-const dropMenu = document.querySelectorAll('.navigation ul ul')
+// const menu = document.querySelector('.menu')
+// const navigation = document.querySelector('.navigation')
+// const dropdown = document.querySelectorAll('#dropdown')
+// const drop = document.querySelectorAll('.drop')
+// const dropitemMenu = document.querySelectorAll('.navigation .action')
+// const dropMenu = document.querySelectorAll('.navigation ul ul')
 
-function activeDropDown(num) {
-    dropdown[num].classList.toggle('active')
-}
+// function activeDropDown(num) {
+//     dropdown[num].classList.toggle('active')
+// }
 
-function activeDropDownNav(num) {
-    drop[num].classList.toggle('active')
-}
+// function activeDropDownNav(num) {
+//     drop[num].classList.toggle('active')
+// }
 
-function activeDropDownNavMob(num) {
-    dropitemMenu[num].classList.toggle('active')
-    dropMenu[num].classList.toggle('active')
-}
+// function activeDropDownNavMob(num) {
+//     dropitemMenu[num].classList.toggle('active')
+//     dropMenu[num].classList.toggle('active')
+// }
 
-menu.addEventListener('click', () => {
-    menu.classList.toggle('active')
-    navigation.classList.toggle('active')
-})
+// menu.addEventListener('click', () => {
+//     menu.classList.toggle('active')
+//     navigation.classList.toggle('active')
+// })
 
 const items = gsap.utils.toArray(
     ['section:nth-child(4) .right img',
